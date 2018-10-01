@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "predictable react router",
   "main": "lib/index.js",
+  "jsnext:main": "lib/index.js",
   "scripts": {
     "cleanup": "npm prune && npm i && npm dedupe",
     "precommit": "npm test",
